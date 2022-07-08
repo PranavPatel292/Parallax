@@ -1,0 +1,65 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+background: #2c2f34;
+
+}
+
+
+.content{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  max-width: 1200px;
+  padding:  250px 0 40px 0;
+  visibility: visible;
+}
+.gif_img{
+  left:  0;
+  right: 0;
+  top:  0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  position: absolute;
+}
+
+.hero-back{
+  left:  0;
+  height: calc(100vh);
+  width:  100wh;
+  background-image: url("./assets/lg.jpg");
+  background-size: 100%;
+  left:  0;
+  overflow: hidden;
+}
+
+.krishna_img{
+  right:  0%;
+  left:  13%;
+  top:  28%;
+  transform: scale(2.4);
+  width: 30%;
+  height: 100%;
+  z-index: 99;
+  position: relative;
+}
+
+
+
+
+h1{
+  font-family: Poppins;
+  color:  #fff;
+}
+
+p{
+  font-family: Poppins;
+  line-height: 30px;
+  color: #fff;
+  font-weight: lighter;
+}
+
